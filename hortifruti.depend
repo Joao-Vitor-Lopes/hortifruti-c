@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1731348919 source:c:\users\joaos\onedrive\desktop\programas em c faculdade\hortifruti\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+

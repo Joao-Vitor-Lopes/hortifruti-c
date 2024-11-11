@@ -1,0 +1,15 @@
+Banana 8,50
+Maca 2,50
+Laranja 1,50
+Uva 9,50
+Abacaxi 5,50
+Melancia 10,00
+Morango 8,50
+Mamao 3,00
+Manga 4,50
+Pera 2,50
+Limao 1,50
+Kiwi 3,50
+Maracuja 4,50
+Acerola 2,50
+Melao 5,00

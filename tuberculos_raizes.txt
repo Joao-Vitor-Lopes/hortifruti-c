@@ -1,0 +1,4 @@
+Batata-doce 2,30
+Mandioca 2,50
+Mandioquinha 2,20
+Gengibre 1,50

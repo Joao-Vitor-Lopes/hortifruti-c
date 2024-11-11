@@ -1,0 +1,13 @@
+Batata 2,70
+Cenoura 1,80
+Beterraba 3,20
+Cebola 1,20
+Alho 1,50
+Abobrinha 3,50
+Pepino 3,20
+Berinjela 2,20
+Pimentao 5,50
+Chuchu 3,30
+Abobora 3,50
+Inhame 1,20
+Rabanete 2,20

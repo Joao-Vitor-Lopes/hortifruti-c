@@ -1,0 +1,9 @@
+Alface 5,00
+Couve 3,50
+Espinafre 4,50
+Rucula 4,00
+Acelga 3,00
+Agriao 5,00
+Repolho 6,50
+Brocolis 4,50
+Couve-flor 4,00
