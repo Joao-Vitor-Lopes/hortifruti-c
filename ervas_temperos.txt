@@ -4,4 +4,4 @@ Coentro 3,80
 Hortela 4,00
 Manjericao 4,20
 Alecrim 4,40
-Tomilho 5,00
+Tomilho 30,00

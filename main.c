@@ -118,8 +118,8 @@ float buscarPrecoProduto(const Produto produtos[], int quantidade, const char *n
 
 int main() {
     setlocale(LC_ALL, "portuguese");
-    int opcao, quant;
-    float totalpr, totalkg, peso;
+    int opcao;
+    float totalpr, totalkg, peso, quant;
     Produto produtos[100];
     int quantidadeProdutos;
     char nomeProduto[50];
@@ -148,31 +148,37 @@ int main() {
                 system("cls");
                 printf("\n=== Frutas ===\n\n");
                 exibirFrutas();
+                printf("\nEssa é a tabela por kg dos produtos\n\n");
                 nomeArquivo = "frutas.txt";
                 break;
             case 2:
                 printf("\n=== Legumes ===\n\n");
                 exibirLegumes();
+                printf("\nEssa é a tabela por kg dos produtos\n\n");
                 nomeArquivo = "legumes.txt";
                 break;
             case 3:
                 printf("\n=== Verduras ===\n\n");
                 exibirVerduras();
+                printf("\nEssa é a tabela por quantidade dos produtos\n\n");
                 nomeArquivo = "verduras.txt";
                 break;
             case 4:
                 printf("\n=== Ervas e Temperos ===\n\n");
                 exibirErvasTemperos();
+                printf("\nApenas o tomilho é calculado por kg\n\n");
                 nomeArquivo = "ervas_temperos.txt";
                 break;
             case 5:
                 printf("\n=== Tubérculos e Raízes ===\n\n");
                 exibirTuberculosRaizes();
+                printf("\nEssa é a tabela por kg dos produtos\n\n");
                 nomeArquivo = "tuberculos_raizes.txt";
                 break;
             case 6:
                 printf("\n=== Outros Produtos ===\n\n");
                 exibirOutrosProdutos();
+                printf("\nEssa é a tabela por kg dos produtos\n\n");
                 nomeArquivo = "outros_produtos.txt";
                 break;
             case 0:
@@ -194,12 +200,12 @@ int main() {
         } else {
             printf("Preço encontrado: %.2f R$\n", preco);
 
-            printf("Quantidade: ");
-            scanf("%d", &quant);
+            printf("Kg ou quantidade desejada: ");
+            scanf("%f", &quant);
 
             totalpr = preco * quant;
 
-            printf("\nTotal para %s: %.2f R$", nomeProduto, totalpr);
+            printf("\nTotal para %s: %.2f R$ e %.1f kg (ou quantidade)", nomeProduto, totalpr, quant);
         }
     } else {
         printf("Obrigado e volte sempre!\n");

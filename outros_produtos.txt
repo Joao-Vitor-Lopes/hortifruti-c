@@ -1,5 +1,5 @@
-Cogumelos 5,00
-Palmito 4,50
-Milho-verde 6,00
-Quiabo 2,20
-Tomate 3,30
+Cogumelos 30,00
+Palmito 45,50
+Milho-verde 8,00
+Quiabo 10,20
+Tomate 7,30
