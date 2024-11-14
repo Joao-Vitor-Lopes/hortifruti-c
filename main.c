@@ -118,8 +118,8 @@ float buscarPrecoProduto(const Produto produtos[], int quantidade, const char *n
 
 int main() {
     setlocale(LC_ALL, "portuguese");
-    int opcao;
-    float totalpr, totalkg, peso, quant;
+    int opcao, repeat=1, pagamento;
+    float totalc, totalpr, peso, quant;
     Produto produtos[100];
     int quantidadeProdutos;
     char nomeProduto[50];
@@ -130,7 +130,9 @@ int main() {
     scanf("%d", &i);
 
     system("cls");
-    if (i == 1) {
+    while (repeat == 1){
+        if (i == 1) {
+        system("cls");
         printf("\nO que deseja comprar?\n");
         printf("\n=== Menu ===\n\n");
         printf("1. Frutas\n");
@@ -152,30 +154,35 @@ int main() {
                 nomeArquivo = "frutas.txt";
                 break;
             case 2:
+                 system("cls");
                 printf("\n=== Legumes ===\n\n");
                 exibirLegumes();
                 printf("\nEssa é a tabela por kg dos produtos\n\n");
                 nomeArquivo = "legumes.txt";
                 break;
             case 3:
+                 system("cls");
                 printf("\n=== Verduras ===\n\n");
                 exibirVerduras();
                 printf("\nEssa é a tabela por quantidade dos produtos\n\n");
                 nomeArquivo = "verduras.txt";
                 break;
             case 4:
+                 system("cls");
                 printf("\n=== Ervas e Temperos ===\n\n");
                 exibirErvasTemperos();
                 printf("\nApenas o tomilho é calculado por kg\n\n");
                 nomeArquivo = "ervas_temperos.txt";
                 break;
             case 5:
+                 system("cls");
                 printf("\n=== Tubérculos e Raízes ===\n\n");
                 exibirTuberculosRaizes();
                 printf("\nEssa é a tabela por kg dos produtos\n\n");
                 nomeArquivo = "tuberculos_raizes.txt";
                 break;
             case 6:
+                 system("cls");
                 printf("\n=== Outros Produtos ===\n\n");
                 exibirOutrosProdutos();
                 printf("\nEssa é a tabela por kg dos produtos\n\n");
@@ -191,7 +198,7 @@ int main() {
 
         carregarProdutos(nomeArquivo, produtos, &quantidadeProdutos);
 
-        printf("\n\nDigite o nome do item desejado: ");
+        printf("\n\nDigite o nome do item desejado ou (0) para voltar: ");
         scanf(" %[^\n]", nomeProduto);
 
         float preco = buscarPrecoProduto(produtos, quantidadeProdutos, nomeProduto);
@@ -203,13 +210,62 @@ int main() {
             printf("Kg ou quantidade desejada: ");
             scanf("%f", &quant);
 
-            totalpr = preco * quant;
 
-            printf("\nTotal para %s: %.2f R$ e %.1f kg (ou quantidade)", nomeProduto, totalpr, quant);
+
+            totalc = preco * quant;
+            totalpr = totalc + totalpr;
+
+            printf("\nTotal para %s: %.2f R$ e %.1f kg (ou quantidade)", nomeProduto, totalc, quant);
+
+            printf("Deseja continuar a compra?\n Digite 1 para continuar ou qualquer outro número para finalizar: ");
+            scanf("%d", &repeat);
         }
-    } else {
+         } else {
         printf("Obrigado e volte sempre!\n");
+        return 0;
     }
+
+    }
+    system("cls");
+    printf("Total da compra: %.2f\n", totalpr);
+   printf("\nQual a forma de pagamento?\n");
+        printf("1. Débito\n");
+        printf("2. Crédito\n");
+        printf("3. Dinheiro\n");
+        printf("4. Pix (QRCODE)\n");
+        printf("0. Sair\n");
+        scanf("%d", &pagamento);
+        switch (pagamento) {
+            case 1:
+                system("cls");
+                printf("Forma de pagamento selecionada: Débito");
+                printf("\nProcessando pagamento...\n\n");
+                printf("\nPagamento aprovado!\n\nVolte Sempre :\)\n\n===Hortifruti Henrique Flores===\n\n");
+                break;
+            case 2:
+                 system("cls");
+                printf("Forma de pagamento selecionada: Crédito");
+                printf("\nProcessando pagamento...\n\n");
+                printf("\nPagamento aprovado!\n\nVolte Sempre :\)\n\n===Hortifruti Henrique Flores===\n\n");
+                break;
+            case 3:
+                 system("cls");
+                printf("Forma de pagamento selecionada: Dinheiro");
+                printf("\nProcessando pagamento...\n\n");
+                printf("\nPagamento aprovado!\n\nVolte Sempre :\)\n\n===Hortifruti Henrique Flores===\n\n");
+                break;
+            case 4:
+                 system("cls");
+                printf("Forma de pagamento selecionada: Pix");
+                printf("\nProcessando pagamento...\n\n");
+                printf("\nPagamento aprovado!\n\nVolte Sempre :\)\n\n===Hortifruti Henrique Flores===\n\n");
+                break;
+            case 0:
+                printf("Saindo do programa...\n");
+                return 0;
+
+                }
+
 
     return 0;
 }
