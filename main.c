@@ -124,7 +124,7 @@ int main() {
     int quantidadeProdutos;
     char nomeProduto[50];
 
-    printf("Olá, bem-vindo ao hortifruti Henrique Flores!\n\n");
+    printf("Olá, bem-vindo ao hortifruti Hortmix!\n\n");
     printf("Deseja continuar e fazer uma compra conosco?\nNúmero 1 para continuar\nQualquer outro número para sair\n");
     int i;
     scanf("%d", &i);
@@ -240,25 +240,25 @@ int main() {
                 system("cls");
                 printf("Forma de pagamento selecionada: Débito");
                 printf("\nProcessando pagamento...\n\n");
-                printf("\nPagamento aprovado! (%.2f)\n\nVolte Sempre :\)\n\n===Hortifruti Henrique Flores===\n\n", totalpr);
+                printf("\nPagamento aprovado! (%.2f)\n\nVolte Sempre :\)\n\n===Hortifruti Hortmix===\n\n", totalpr);
                 break;
             case 2:
                  system("cls");
                 printf("Forma de pagamento selecionada: Crédito");
                 printf("\nProcessando pagamento...\n\n");
-                printf("\nPagamento aprovado! (%.2f)\n\nVolte Sempre :\)\n\n===Hortifruti Henrique Flores===\n\n", totalpr);
+                printf("\nPagamento aprovado! (%.2f)\n\nVolte Sempre :\)\n\n===Hortifruti Hortmix===\n\n", totalpr);
                 break;
             case 3:
                  system("cls");
                 printf("Forma de pagamento selecionada: Dinheiro");
                 printf("\nProcessando pagamento...\n\n");
-                printf("\nPagamento aprovado! (%.2f)\n\nVolte Sempre :\)\n\n===Hortifruti Henrique Flores===\n\n", totalpr);
+                printf("\nPagamento aprovado! (%.2f)\n\nVolte Sempre :\)\n\n===Hortifruti Hortmix===\n\n", totalpr);
                 break;
             case 4:
                  system("cls");
                 printf("Forma de pagamento selecionada: Pix");
                 printf("\nProcessando pagamento...\n\n");
-                printf("\nPagamento aprovado! (%.2f)\n\nVolte Sempre :\)\n\n===Hortifruti Henrique Flores===\n\n",totalpr);
+                printf("\nPagamento aprovado! (%.2f)\n\nVolte Sempre :\)\n\n===Hortifruti Hortmix===\n\n",totalpr);
                 break;
             case 0:
                 printf("Saindo do programa...\n");
