@@ -1,59 +1,59 @@
 Frutas:  
-Banana   
-Maçã     
-Laranja  
-Uva      
-Abacaxi  
-Melancia 
-Morango  
-Mamão    
-Manga   
-Pêra     
-Limão    
-Kiwi     
-Maracujá 
-Acerola  
-Melão    
+Banana 6,00 
+Maca 10,00  
+Laranja 5,00
+Uva 15,00   
+Abacaxi 5,50
+Melancia 10,00
+Morango 20,00
+Mamao 6,00
+Manga 8,00
+Pera 12,00
+Limao 7,00
+Kiwi 25,50
+Maracuja 18,00
+Acerola 25,00
+Melao 5,00 
 Legumes:
-Batata   
-Cenoura  
-Beterraba 
-Cebola   
-Alho    
-Abobrinha 
-Pepino   
-Berinjela 
-Pimentão  
-Chuchu   
-Abóbora   
-Inhame    
-Rabanete  
+Batata 4,50
+Cenoura 6,00
+Beterraba 5,00
+Cebola 5,00  
+Alho 15,00
+Abobrinha 6,67
+Pepino 5,50
+Berinjela 7,33
+Pimentao 12,00
+Chuchu 4,00 
+Abobora 5,00 
+Inhame 8,00
+Rabanete 11,00
 Verduras:
-Alface    
-Couve    
-Espinafre 
-Rúcula    
-Acelga    
-Agrião    
-Repolho   
-Brócolis 
-Couve-flor 
+Alface 5,00  
+Couve 3,50 
+Espinafre 4,50
+Rucula 4,00
+Acelga 3,00   
+Agriao 5,00
+Repolho 6,50
+Brocolis 4,50
+Couve-flor 4,00
 Ervas e Temperos:
-Salsa    
-Cebolinha 
-Coentro   
-Hortelã  
-Manjericão 
-Alecrim    
-Tomilho    
+Salsa 3,30
+Cebolinha 3,50
+Coentro 3,80  
+Hortela 4,00
+Manjericao 4,20
+Alecrim 4,40 
+Tomilho 30,00 
 Tubérculos e Raízes:
-Batata-doce 
-Mandioca    
-Mandioquinha (batata-baroa)  
-Gengibre    
+Batata-doce 6,00
+Mandioca 4,50  
+Mandioquinha 12,00 
+Gengibre 20,00   
 Outros Produtos Naturais:
-Cogumelos  
-Palmito    
-Milho verde  
-Quiabo       
-Tomate       
+Cogumelos 30,00 
+Palmito 45,50    
+Milho-verde 8,00 
+Quiabo 10,20      
+Tomate 7,30   
